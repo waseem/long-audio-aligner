@@ -3,13 +3,13 @@ CMUSphinx Long Audio Aligner
 
 AUTHORS			  
 -------
-Bhiksha Raj 		  : CMUSphinx Mentor GSoC 2011
-Nickolay Shymrev 	: CMUSphinx Mentor GSoC 2011
-James Baker 		  : CMUSphinx Advisor GSoC 2011
-Antony Robinson		: CMUSphinx Advisor GSoC 2011
-Rita			        : CMUSphinx Advisor GSoC 2011
+* Bhiksha Raj 		  : CMUSphinx Mentor GSoC 2011
+* Nickolay Shymrev 	: CMUSphinx Mentor GSoC 2011
+* James Baker 		  : CMUSphinx Advisor GSoC 2011
+* Antony Robinson		: CMUSphinx Advisor GSoC 2011
+* Rita			        : CMUSphinx Advisor GSoC 2011
 
-Apurv Tiwari		  : Student GSoC 2011 
+* Apurv Tiwari		  : Student GSoC 2011 
 
 ABOUT
 -----
@@ -30,13 +30,13 @@ RUN INSTRUCTIONS
 To run the demo :
 
 i) Build the program by issuing
-   `$ and all`
+    $ and all
 
 This will give you `bin/aligner.jar`
 
 ii) Run it by doing
 
-    `$ java -ms400m -mx1500m -jar bin/aligner.jar <path-to-audio-file> <path-to-transcript-file>`
+    $ java -ms400m -mx1500m -jar bin/aligner.jar <path-to-audio-file> <path-to-transcript-file>
 
 UNDERSTANDING THE RESULT OF ALIGNMENT
 -------------------------------------
