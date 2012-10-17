@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ********************************************************** -->
 <!-- *                                                        * -->
-<!-- * Apache Ant build file used to build the Sphinx-4 demo.* -->
-<!-- * To build the demo, just type the following:           * -->
+<!-- * Apache Ant build file used to build the Sphinx-4 demo. * -->
+<!-- * To build the demo, just type the following:            * -->
 <!-- *                                                        * -->
-<!-- *     ant all					                          * -->
+<!-- *     ant all					                                  * -->
 <!-- *                                                        * -->
 <!-- * For more information:  http://ant.apache.org/          * -->
 <!-- *                                                        * -->
@@ -22,9 +22,7 @@
 	        <pathelement location="${lib_dir}/WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar"/>
 	</path>
 	
-	<target name="all"
-	            depends="compile, run"
-	            description="Compiles and jars the demos"/>
+	<target name="all" depends="compile" description="Compiles and jars the demos"/>
 	
 	<target name="compile">
 			<mkdir dir="${build_dir}"/>

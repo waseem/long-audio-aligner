@@ -31,11 +31,8 @@ import edu.cmu.sphinx.util.WordErrorCount;
 
 public class AlignerDemo {
 	public static void main(String Args[]) throws Exception {
-		
-		
-		Aligner aligner = new Aligner("./src/config.xml",
-				"./resource/wav/hello.wav",
-				"./resource/transcription/hello.txt");	
+
+    Aligner aligner = new Aligner("./src/config.xml",	Args[0], Args[1]);	
 		
 		aligner.setAddOutOfGrammarBranchProperty("true");
 		aligner.allowDeletions();
