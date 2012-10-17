@@ -1,14 +1,15 @@
 CMUSphinx Long Audio Aligner
 ----------------------------
+
 AUTHORS			  
 -------
-Bhiksha Raj 		: CMUSphinx Mentor GSoC 2011
+Bhiksha Raj 		  : CMUSphinx Mentor GSoC 2011
 Nickolay Shymrev 	: CMUSphinx Mentor GSoC 2011
-James Baker 		: CMUSphinx Advisor GSoC 2011
+James Baker 		  : CMUSphinx Advisor GSoC 2011
 Antony Robinson		: CMUSphinx Advisor GSoC 2011
-Rita			: CMUSphinx Advisor GSoC 2011
+Rita			        : CMUSphinx Advisor GSoC 2011
 
-Apurv Tiwari		: Student GSoC 2011 
+Apurv Tiwari		  : Student GSoC 2011 
 
 ABOUT
 -----
@@ -28,18 +29,21 @@ RUN INSTRUCTIONS
 ----------------
 To run the demo :
 
-i) Edit /resource/batchFile.txt with entries indicating path to your text and audio files 
-that are to be aligned.
-path/to/text/file.txt <SPACE/TAB> path/to/audio/file
+i) Build the program by issuing
+   `$ and all`
 
-ii) Run the code using ANT build by issuing command:
-	$ ant all
+This will give you `bin/aligner.jar`
+
+ii) Run it by doing
+
+    `$ java -ms400m -mx1500m -jar bin/aligner.jar <path-to-audio-file> <path-to-transcript-file>`
 
 UNDERSTANDING THE RESULT OF ALIGNMENT
 -------------------------------------
-Result of alignment is displayed on standard output as well as corresponding file* in ./timedOutput/
-Result will contain of a sequence of words, each followed by it's start and end time in the utterance 
-as detected by Long Audio aligner.
-Eg. Sphinx(1.01,1.37) :- Word detected  : Sphinx
-			 Start Time	: 1.01 sec
-			 End Time	: 1.37 sec
+Result of alignment is displayed on standard output. Result will contain of a sequence of words, each followed by it's start and end time in the utterance as detected by Long Audio aligner.
+
+Eg. Sphinx(1.01,1.37)
+
+  Word detected  : Sphinx
+  Start Time	   : 1.01 sec
+  End Time	     : 1.37 sec
