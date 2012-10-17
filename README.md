@@ -30,7 +30,8 @@ RUN INSTRUCTIONS
 To run the demo :
 
 i) Build the program by issuing
-    $ and all
+
+    $ ant all
 
 This will give you `bin/aligner.jar`
 
