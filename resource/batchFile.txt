@@ -1,0 +1,1 @@
+./resource/transcription/hello.txt ./resource/wav/hello.wav
